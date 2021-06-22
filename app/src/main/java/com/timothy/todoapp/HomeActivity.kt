@@ -12,7 +12,7 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
 
         usernamedisplay = findViewById(R.id.usernamedisplay)
-        usernamedisplay.text = intent.getStringExtra("name")
+        usernamedisplay.text = "Welcome to, ${intent.getStringExtra("name")} Dashboard"
 
 
     }
